@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* reset */
+        /* 초기값 설정 */
+        *{margin: 0; padding: 0;}
+        /* a:link{text-decoration: none;}
+        a:visited{color:black} */
+
+        a:link, a:visited{text-decoration: none; color:black}
+
+        /* li{list-style: none;}
+        .menu li{float:left;} */
+    
+        table{
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /* body > a.link1{color: blue;}   */
+        content a.link1{color:blue}      
+        /* 동일한 순위일 경우 아래있는 것이 우선순위가 더 높음 */
+        /* 지정해서 최우선 순위로 만들고 싶다면 important 사용 */
+        a.link1{color:orange}
+        a.link1{color:red}
+
+        .boxWrap{
+            width:90%;
+            background-color: blue;
+        }
+        .box{
+            background-color: skyblue;
+            /* width: 300px; */
+            width: 50%;
+        }
+    </style>
+</head>
+<body id="content">
+    <h1>test</h1>
+    <a href="http://www.korea.com" class="link1">korea</a> 
+    <a href="http://www.daum.net">duam</a>
+
+    <!-- <ul class="menu">
+        <li>test</li>
+        <li>test</li>
+    </ul> -->
+
+    <table>
+        <tr>
+            <td>1</td>
+            <td><a hred="test" class="link1">list</a></td>
+        </tr>
+    </table>
+
+    <div class="boxWrap">
+        <div class="box">
+            안녕하세요.
+        </div>
+    </div>
+
+    <!-- 블록 단위이기 때문에 공백이 있어도 띄어쓰기해서 보여짐 -->
+    <p>111</p>
+</body>
+</html>
