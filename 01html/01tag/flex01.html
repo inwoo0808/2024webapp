@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <header class="hd"><!--w100%-->
+            <div class="container menuWrap "><!--w1360 m0a-->
+            <p class="name">넷마블문화재단<p>
+            <nav class="gnb">
+                <ul class="clear">
+                    <li><a href="#">재단소개</a></li>
+                    <li><a href="#">재단활동</a></li>
+                    <li><a href="#">재단소식</a></li>
+                </ul>
+            </nav>
+
+            </div>
+        </header>  
+
+    <div class="visual bg-sky">
+        <div class="container .titleWrap bg-gray">
+           <p class = "main-title">게임소통학교</p>
+           <br>
+           <p class = "sub-title">게임으로 소통하고 게임으로 가까워지는 가족</p>
+        </div>
+    </div>
+    </div>
+    <div class="container title">
+        <div class="titleWrap">
+            <p class="title-text">문화를 만들고 인재를 키우고
+            <br>
+            마음을 나눕니다
+            </p>
+        </div>
+
+        <div class="contentWrap">
+            <p class="content-text">
+                넷마블문화재단은 문화적 가치 확산을 통해 우리 사회의 미래 경쟁력을 높여 가고자
+                다양한 공익 활동을 전개해 나가고 있습니다.        
+            </p>
+        </div>
+
+    </div>
+
+
+    <div class="container banner">
+        <div class="card"> <!--384*580-->
+            <div class="imgWrap">
+                <img src="./images/content01_01.jpg" alt="">
+             </div>
+            <div class="card-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, voluptatibus!</p>
+            </div>
+        </div>
+        <div class="card"> <!--384*580-->
+            <div class="imgWrap">
+                <img src="./images/content01_01.jpg" alt="">
+             </div>
+            <div class="card-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, voluptatibus!</p>
+            </div>
+        </div>
+        <div class="card"> <!--384*580-->
+            <div class="imgWrap">
+                <img src="./images/content01_01.jpg" alt="">
+             </div>
+            <div class="card-text">
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, voluptatibus!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container purpose">
+        <div class="purposeWrap">
+            <p class="purpose-text">우리는 
+            <b>문화적 가치를 확산</b>
+            하여 우리 사회의 <br>미래 경쟁력을 높여갑니다</p>
+            <br>
+            <em class="purpose2-text">주요목적</em>
+        </div>
+
+        <div class="purpose-image-wrap">
+            <img src="./images/purpose.jpg" alt="">
+        </div>
+    </div>
+
+
+    <div class="container news">
+        <div class="newsWrap">
+            <div class="news-title">
+                <p class="title">재단소식</p>
+            </div>
+        </div>
+
+        <div class="news-category-wrap">
+            <button class="on" id="btn1">공지사항</button>
+            <button class="category" id="btn2">뉴스룸</button>
+            <button class="category" id="btn3">소셜미디어</button>
+        </div>
+    </div>
+
+
+
+    <div class="top"></div>
+
+
+<script>
+    document.getElementById("btn1").addEventListener('click', on);
+    function on(){
+        let btn = document.getElementById("btn1");
+        btn.classList.replace("category", on);
+        div.classList.replace('on', 'category');
+    }
+    
+    document.getElementById("btn2").addEventListener('click', on1);
+    function on1(){
+        let btn = document.getElementById("btn2");
+        btn.classList.replace("category", on);
+        div.classList.replace('on', 'category');
+    }
+
+    document.getElementById("btn3").addEventListener('click', on2);
+    function on2(){
+        let btn = document.getElementById("btn3");
+        btn.classList.replace("category", on);
+        div.classList.replace('on', 'category');
+    }
+</script>
+<script src="./js/jquery.min.js"></script>
+</body>
+</html>
