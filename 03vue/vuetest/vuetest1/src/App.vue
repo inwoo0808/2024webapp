@@ -1,7 +1,10 @@
 <template>
    <NavbarView />
-   <SearchBarView :data="data" />
-   <ComponentView :data="data" @openModal="modalOpen" />
+   <SearchBarView :data="data_temp" @searchMovie="searchMovie" />
+   <div class="container">
+      <button @click="showAllView">전체보기</button>
+   </div>
+   <ComponentView :data="data_temp" @openModal="modalOpen" />
    <ModalView :data="data" :isModal="isModal" :num="selectedNum" @closeModal="isModal = false" />
 </template>
 
@@ -19,6 +22,7 @@ export default {
          data: mdata,
          isModal: false,
          selectedNum: 0,
+         data_temp: [...mdata],
       };
    },
    methods: {
@@ -33,6 +37,15 @@ export default {
       },
       closeM() {
          this.isModal = false;
+      },
+      searchMovie(title) {
+         console.log('영화이름은 ' + title);
+         this.data_temp = this.data.filter(movie => {
+            return movie.title.includes(title);
+         });
+      },
+      showAllView() {
+         this.data_temp = [...this.data];
       },
    },
    components: {
