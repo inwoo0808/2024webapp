@@ -9,7 +9,13 @@
 
 ## 🔗 배포 URL
 https://inwoo0808.github.io/2024webapp/01html/01tag/flex01.html
- 
+
+## 🚀 기술 스택
+![image](https://github.com/user-attachments/assets/a55399b3-cfce-4cfb-87c9-a0747a079c2d)
+![image](https://github.com/user-attachments/assets/3876c921-facf-476c-b064-93e96878357e)
+
+
+ ## 실습 결과
 ![image](https://github.com/user-attachments/assets/0dd9f5f1-a3c5-4d58-8fe4-a5fd2fe20170)
 ![image](https://github.com/user-attachments/assets/0733e923-2f72-4f86-ab4b-7922bdb255f2)
 ![image](https://github.com/user-attachments/assets/15b86b94-01e0-4f1a-8a8b-be20aed5434e)
