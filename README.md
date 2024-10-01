@@ -11,8 +11,8 @@
 https://inwoo0808.github.io/2024webapp/01html/01tag/flex01.html
 
 ## 🚀 기술 스택
-![image](https://github.com/user-attachments/assets/a55399b3-cfce-4cfb-87c9-a0747a079c2d)
-![image](https://github.com/user-attachments/assets/3876c921-facf-476c-b064-93e96878357e)
+<img src="https://images.velog.io/images/soso0/post/a79c4dc8-32fc-4121-812e-a8c2bcf57de3/javascript-vs-html-vs-css-1024x683.jpg" width="200" height="100"/>
+<img src="https://images.velog.io/images/function_dh/post/c1938bc0-2b91-4e0b-a4db-a244cf770502/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202020-12-07%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2012.57.16.png" width="200" height="100"/>
 
 
  ## 실습 결과
